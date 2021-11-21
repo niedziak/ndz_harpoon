@@ -1,0 +1,89 @@
+@font-face {
+    font-family: AgencyFB-regular;
+    src: url("fonts/agencyfb-regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: AgencyFB-bold;
+    src: url("fonts/agencyfb-bold.otf") format("opentype");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(100,100,126);
+    color: white;
+    font-family: AgencyFB-regular;
+    height: 100%;
+    max-width: 1400px;
+    margin: 0 auto 0 auto;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-image: linear-gradient(rgba(000,000,000,0.1),rgba(000,000,000,0.3));
+    margin: 0 auto 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul {
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    font-size: 22px;
+    text-shadow: 2px 2px black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgba(000,000,000,0.3);
+}
+
+#logo {
+    width: 50%;
+    margin: 0 0 0 45%;
+    position: relative;
+    bottom: -20px;
+}
+
+#banner_image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+    background-color: rgba(000,000,000,0.1);
+    text-align: center;
+}
+
+h1 {
+    padding: 30px 0px 20px 0px;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+

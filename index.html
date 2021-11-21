@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom's Harpoon Page</title>
+    <link rel="stylesheet" href="harpoon.css">
+    <style>
+    /* for desktop */
+        html {
+            height: 100%;
+        }
+        
+        .filesList {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        span.category {
+        font-size: 25px;
+        }
+
+        .category {
+            padding: 10px 8px 10px 0;
+            width: 50%;
+            text-align: right;
+        }
+
+        .links {
+            padding: 10px 5px 10px 0;
+            width: 50%;
+            text-align: left;
+        }
+
+        .links a {
+            width: 120px;
+            color:white;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 10px 20px;
+            margin: 0 0 0 5px;
+            background-color: rgba(255,255,255,0.2);
+            border-radius: 40px;
+        }
+
+        .links a:hover {
+            background-color: rgba(255,255,255,0.1);
+        }
+
+     /* for mobile */
+     @media only screen and (max-width: 768px) {
+            .html {
+                height: auto;
+            }
+            
+            .filesList {
+                flex-direction: column;
+            }
+
+            .category, .links {
+                width: 100%;
+                text-align: center;
+            }
+
+            .links {
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img id="logo" src="tomharp_logo.png" alt="Tom's Harpoon Logo">
+        <img id="banner_image" src="banners/harp_banner_1.png" alt="banner image">
+    </header>
+
+<!-- main navbar -->
+    <nav>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">FLOWCHARTS</a></li>
+            <li><a href="">EXAMPLES</a></li>
+            <li><a href="">LINKS</a></li>
+        </ul>
+    </nav>
+
+    <div class="main">
+        <h1>FLOWCHARTS</h1>
+        <h2>Letter format:</h2>
+        <div class="filesList">
+                    <span class="category">Air-to-Air Combat:</span>
+                    <div class="links">
+                    <a href="flowcharts/Flowchart_Air-to-Air_Combat_300.jpg" target="_blank">JPG 300dpi</a>
+                    <a href="flowcharts/Flowchart_Air-to-Air_Combat_150.jpg" target="_blank">JPG 150dpi</a>
+                    <a href="flowcharts/Flowchart_Air-to-Air_Combat.pdf" target="_blank">PDF</a>
+                    </div>
+
+                    <span class="category">Surface-to-Air Engagement:</span>
+                    <div class="links">
+                    <a href="flowcharts/Flowchart_Surf-to-Air_Engagement_300.jpg" target="_blank">JPG 300dpi</a>
+                    <a href="flowcharts/Flowchart_Surf-to-Air_Engagement_150.jpg" target="_blank">JPG 150dpi</a>
+                    <!-- <a href="flowcharts/Flowchart_Surf-to-Air_Engagement.pdf" target="_blank">PDF</a> -->
+                    </div>
+
+                    <span class="category">Surface-to-Air Attack:</span>
+                    <div class="links">
+                    <a href="flowcharts/Flowchart_Surf-to-Air_Attack_300.jpg" target="_blank">JPG 300dpi</a>
+                    <a href="flowcharts/Flowchart_Surf-to-Air_Attack_150.jpg" target="_blank">JPG 150dpi</a>
+                    <a href="flowcharts/Flowchart_Surf-to-Air_Attack.pdf" target="_blank">PDF</a>
+                    </div>
+
+                    <span class="category">Surface-to-Surface RADAR FCS:</span>
+                    <div class="links">
+                    <a href="flowcharts/Flowchart_FCS_RADAR_300.jpg" target="_blank">JPG 300dpi</a>
+                    <a href="flowcharts/Flowchart_FCS_RADAR_150.jpg" target="_blank">JPG 150dpi</a>
+                    <!-- <a href="flowcharts/Flowchart_FCS_RADAR.pdf" target="_blank">PDF</a> -->
+                    </div>
+
+                    <span class="category">Surface-to-Surface RADAR FCS - LIST STYLE:</span>
+                    <div class="links">
+                    <a href="flowcharts/Flowchart_FCS_RADAR_LIST_300.jpg" target="_blank">JPG 300dpi</a>
+                    <a href="flowcharts/Flowchart_FCS_RADAR_LIST_150.jpg" target="_blank">JPG 150dpi</a>
+                    <a href="flowcharts/Flowchart_FCS_RADAR_LIST.pdf" target="_blank">PDF</a>
+                    </div>
+
+                    <span class="category">Acoustic FCS:</span>
+                    <div class="links">
+                    <a href="flowcharts/Flowchart_FCS_Acoustic_300.jpg" target="_blank">JPG 300dpi</a>
+                    <a href="flowcharts/Flowchart_FCS_Acoustic_150.jpg" target="_blank">JPG 150dpi</a>
+                    <!-- <a href="flowcharts/Flowchart_FCS_Acoustic.pdf" target="_blank">PDF</a> -->
+                    </div>
+
+                    <span class="category">Passive SONAR detection:</span>
+                    <div class="links">
+                    <a href="flowcharts/Flowchart_Detection_Passive Sonar_300.jpg" target="_blank">JPG 300dpi</a>
+                    <a href="flowcharts/Flowchart_Detection_Passive Sonar_150.jpg" target="_blank">JPG 150dpi</a>
+                    <!-- <a href="flowcharts/Flowchart_Detection_Passive Sonar.pdf" target="_blank">PDF</a> -->
+                    </div>
+
+                    <span class="category">Active SONAR detection:</span>
+                    <div class="links">
+                    <a href="flowcharts/Flowchart_Detection_Active Sonar_300.jpg" target="_blank">JPG 300dpi</a>
+                    <a href="flowcharts/Flowchart_Detection_Active Sonar_150.jpg" target="_blank">JPG 150dpi</a>
+                    <!-- <a href="flowcharts/Flowchart_Detection_Active Sonar.pdf" target="_blank">PDF</a> -->
+                    </div>
+        </div>
+    </div>
+</body>
+</html>
